@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
+
+
 const int ARRAY_SIZE = 5;
+
+
 
 int main() {
   double grades[ARRAY_SIZE] = { 25, 50, 75, 100, 0};
@@ -15,9 +19,9 @@ average = accumulator / ARRAY_SIZE;
 
 for (int i = 0; i < ARRAY_SIZE; i ++)
   if (grades[i] != grades1[i])
-    cout << "The elements numbered " << i + 1 << " are not equal\n";
+    cout << "The elements numbered " << i << " are not equal\n";
   else
-    cout << "The elements numbered " << i + 1 << " are equal\n"; 
+    cout << "The elements numbered " << i << " are equal\n"; 
 
 
 cout << "\nThe average of grades is " << average << endl;
